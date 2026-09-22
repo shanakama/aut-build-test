@@ -5,7 +5,7 @@ FROM nginx:1.27-alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your custom static site into the container
-COPY ./site /usr/share/nginx/html
+#COPY ./site /usr/share/nginx/html
 
 # (Optional) Copy a custom nginx config
 # COPY ./nginx.conf /etc/nginx/conf.d/default.conf
